@@ -1,0 +1,474 @@
+ <!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>IFT</title>
+
+  <style>
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 20px;
+      background: linear-gradient(135deg, #fdeeff, #e0f7ff);
+      font-family: "Helvetica Neue", sans-serif;
+      color: #59240c;
+    }
+
+    .card {
+      background: linear-gradient(180deg, #ffffff, #f9f9ff);
+      padding: 20px;
+      border-radius: 20px;
+      box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+      width: 100%;
+      max-width: 500px;
+      margin: 0 auto 20px;
+      transition: 0.3s;
+    }
+
+    .card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 15px 30px rgba(0,0,0,0.2);
+    }
+
+    .card:nth-of-type(1) { animation-delay: 0.2s; }
+    .card:nth-of-type(2) { animation-delay: 0.4s; }
+    .card:nth-of-type(3) { animation-delay: 0.6s; }
+    .card:nth-of-type(4) { animation-delay: 0.8s; }
+    .card:nth-of-type(5) { animation-delay: 1s; } 
+
+    ul {
+      list-style-type: none;
+      background: linear-gradient(135deg, #bbefff, #c6d3ff);
+      padding: 15px;
+      border-radius: 10px;
+    }
+
+    li::before {
+      content: "💙 ";
+    }
+
+    li {
+      transition: 0.3s;
+      margin: 8px 0;
+    }
+
+    li:hover {
+      transform: scale(1.1);
+      color: #ff4da6;
+    }
+
+    li:hover::before {
+      content: "💖 ";
+    }
+
+    .fade-in {
+      opacity: 0;
+      transform: translateY(20px);
+      animation: fadeIn 1s forwards;
+    }
+
+    @keyframes fadeIn {
+      to {
+       opacity: 1;
+       transform: translateY(0);
+      }
+    }
+
+    h1 {
+      text-align: center;
+      color: #cb0066;
+    }
+
+    h2 {
+      color: #787fff;
+      border-bottom: 2px dashed #1c4c95;
+      padding-bottom: 5px;
+    }
+
+    h3 {
+      color: #1c4c95;
+    }
+
+    h4 {
+      color: #1c4c95;
+    }
+
+    h6 {
+      text-align: center;
+      color: #59240c;
+    }
+
+    a
+    {
+      color: #1c4c95;
+      text-decoration: none;
+      font-weight: bold;
+      transition: 0.3s;
+    }
+
+    a:hover {
+      transform: scale(1.1);
+      color: #ff4da6;
+    }
+
+
+  </style>
+</head>
+
+<body>
+  <body ontouchstart="">
+  <h1>ALL</h1>
+
+  <div class="card fade-in">
+    <h2>NOW</h2>
+    <p>鋭意更新中だよ</p>
+  </div>
+
+  <div class="card fade-in"> 
+    <h2>MARCH</h2>
+    <h3>8th</h3>
+    <ul>
+     <li>Party Festa! 1st(階段広場)</li>
+     <li><a href="https://www.youtube.com/watch?v=iFMTg5ctFjA&list=PLAZngf0lrwwymKhfujDJv2bmaxggGfAIF&index=1&pp=iAQB8AUBsAgC">Party Festa! 2st(階段広場)</a></li>
+     <li><a href="https://www.youtube.com/watch?v=XncVp3UHP6U&list=PLAZngf0lrwwxj1QmLfTkp9TiHeJYa2HWV&index=1&pp=iAQB8AUBsAgC" target="_blank">Cabaret 2st(下手花道降り)</a></li>
+     <li><a href="https://www.youtube.com/watch?v=7N5cNVlLXYk&list=PLAZngf0lrwwxj1QmLfTkp9TiHeJYa2HWV&index=3&pp=iAQB8AUBsAgC" target="_blank">Cabaret 4st(上手花道裏)</a></li>
+     <li><a href="https://www.youtube.com/watch?v=Q2RGWnnnubk&list=PLAZngf0lrwwxj1QmLfTkp9TiHeJYa2HWV&index=5&pp=iAQB8AUBsAgC" target="_blank">Cabaret 6st(下手花道裏) </a></li>
+    </ul>
+
+    <h3>11th</h3>
+    <ul>
+     <li>Party Festa! 1st(階段広場)</li>
+     <li>Party Festa! 2st(階段広場)</li>
+     <li><a href="https://www.youtube.com/watch?v=kblx_uvEdzU&list=PLAZngf0lrwwxj1QmLfTkp9TiHeJYa2HWV&index=6&pp=iAQB8AUBsAgC" target="_blank">Cabaret 1st(下手花道裏)</a></li>
+     <li><a href="https://www.youtube.com/watch?v=_XJIm-uPiik&list=PLAZngf0lrwwxj1QmLfTkp9TiHeJYa2HWV&index=8&pp=iAQB8AUB0gcJCdMKAYcqIYzvsAgC" target="_blank">Cabaret 3st(上手花道裏)</a></li>
+     <li><a href="https://www.youtube.com/watch?v=autJloAekd8&list=PLAZngf0lrwwxj1QmLfTkp9TiHeJYa2HWV&index=10&pp=iAQB8AUBsAgC" target="_blank">Cabaret 5st(下手花道裏)</a></li>
+    </ul>
+
+  </div>
+
+  <div class="card fade-in"> 
+    <h2>APRIL</h2>
+   
+
+    <h3>3rd</h3>
+    <ul>
+     <li><a href="https://www.youtube.com/watch?v=WY4oXCtImQg&list=PLAZngf0lrwwymKhfujDJv2bmaxggGfAIF&index=6&pp=iAQB8AUBsAgC" target="_blank">Party Festa! 1st(プラザマート)</a></li>
+     <li><a href="https://www.youtube.com/watch?v=W_B98iND6EY&list=PLAZngf0lrwwymKhfujDJv2bmaxggGfAIF&index=7&pp=iAQB8AUBsAgC" target="_blank">Party Festa! 2st(ドルチェ)</a></li>
+     <li><a href="https://www.youtube.com/watch?v=E0wzXBoHH-k&list=PLAZngf0lrwwxj1QmLfTkp9TiHeJYa2HWV&index=23&pp=iAQB8AUBsAgC" target="_blank">Cabaret 3st(下手花道裏)</a></li>
+     <li><a href="https://www.youtube.com/watch?v=DQBE3mZt2kc&list=PLAZngf0lrwwxj1QmLfTkp9TiHeJYa2HWV&index=24&pp=iAQB8AUBsAgC" target="_blank">Cabaret 4st(上手花道裏)</a></li>
+    </ul>
+
+    <h3>13th</h3>
+    <ul>
+     <li><a href="https://www.youtube.com/watch?v=wbHs4BTM_n4&list=PLAZngf0lrwwxj1QmLfTkp9TiHeJYa2HWV&index=25&pp=iAQB8AUBsAgC" target="_blank">Cabaret 1st(上手花道降り)</a></li>
+     <li><a href="https://www.youtube.com/watch?v=f-VdTQJfHSw&list=PLAZngf0lrwwxj1QmLfTkp9TiHeJYa2HWV&index=26&pp=iAQB8AUBsAgC" target="_blank">Cabaret 2st(下手花道裏)</a></li>
+     <li><a href="https://www.youtube.com/watch?v=e2hZghy3gC8&list=PLAZngf0lrwwymKhfujDJv2bmaxggGfAIF&index=8&pp=iAQB8AUBsAgC" target="_blank">Party Festa! 1st(階段広場)</a></li>
+     <li><a href="https://www.youtube.com/watch?v=WK4cUUJCGAs&list=PLAZngf0lrwwymKhfujDJv2bmaxggGfAIF&index=9&pp=iAQB8AUBsAgC" target="_blank">Party Festa! 2st(ペローニ)</a></li>
+    </ul>
+
+  
+  </div>
+
+  <div class="card fade-in"> 
+    <h2>MAY</h2>
+ 
+    <h3>29th</h3>
+    <ul>
+     <li><a href="https://www.youtube.com/watch?v=mmRtApwCnAw&list=PLAZngf0lrwwxj1QmLfTkp9TiHeJYa2HWV&index=36&pp=iAQB8AUB" target="_blank">Cabaret 1st(上手花道裏)</a></li>
+     <li><a href="https://www.youtube.com/watch?v=tKlQ5HK1iUA&list=PLAZngf0lrwwxj1QmLfTkp9TiHeJYa2HWV&index=37&pp=iAQB8AUB" target="_blank">Cabaret 2st(上手花道裏)</a></li>
+     <li><a href="https://www.youtube.com/watch?v=eqPqu8yt0Co&list=PLAZngf0lrwwxj1QmLfTkp9TiHeJYa2HWV&index=38&pp=iAQB8AUB0gcJCdMKAYcqIYzv" target="_blank">Cabaret 3st(下手花道裏)</a></li>
+     <li><a href="https://www.youtube.com/watch?v=DZckQcA6cxw&list=PLAZngf0lrwwymKhfujDJv2bmaxggGfAIF&index=14&pp=iAQB8AUB" target="_blank">Party Festa! 1st(センター)</a></li>
+     <li><a href="https://www.youtube.com/watch?v=XOTl1aSq7_M&list=PLAZngf0lrwwymKhfujDJv2bmaxggGfAIF&index=15&pp=iAQB8AUB" target="_blank">Party Festa! 2st(下手)</a></li>
+    </ul>
+
+ 
+    <h3>31st</h3>
+    <ul>
+     <li><a href="https://www.youtube.com/watch?v=8SwnKTHetCw&list=PLAZngf0lrwwxj1QmLfTkp9TiHeJYa2HWV&index=43&pp=iAQB8AUB" target="_blank">Cabaret 1st(下手花道裏)</a></li>
+     <li><a href="https://www.youtube.com/watch?v=8Gfo5pT-hLg&list=PLAZngf0lrwwxj1QmLfTkp9TiHeJYa2HWV&index=44&pp=iAQB8AUB" target="_blank">Cabaret 2st(上手花道裏)</a></li>
+     <li><a href="https://www.youtube.com/watch?v=35SDjcjuWGU&list=PLAZngf0lrwwxj1QmLfTkp9TiHeJYa2HWV&index=45&pp=iAQB8AUB" target="_blank">Cabaret 3st(上手花道裏)</a></li>
+     <li><a href="https://www.youtube.com/watch?v=oJrJOn02YJg&list=PLAZngf0lrwwymKhfujDJv2bmaxggGfAIF&index=18&pp=iAQB8AUB" target="_blank">Party Festa! 1st(上手)</a></li>
+     <li><a href="https://www.youtube.com/watch?v=kkHWT44ZrsE&list=PLAZngf0lrwwymKhfujDJv2bmaxggGfAIF&index=19&pp=iAQB8AUB" target="_blank">Party Festa! 2st(下手)</a></li>
+    </ul>
+
+  </div>
+
+    <div class="card fade-in"> 
+    <h2>JUNE</h2>
+    
+    <h3>2nd</h3>
+    <ul>
+     <li><a href="https://www.youtube.com/watch?v=ZqTpD9dQpvI&list=PLAZngf0lrwwymKhfujDJv2bmaxggGfAIF&index=22&pp=iAQB8AUB" target="_blank">Party Festa! 1st(プラザマート)</a></li>
+     <li><a href="https://www.youtube.com/watch?v=pZfq1240Ozc&list=PLAZngf0lrwwymKhfujDJv2bmaxggGfAIF&index=23&pp=iAQB8AUB" target="_blank">Party Festa! 2st(ドルチェ)</a></li>
+     <li><a href="https://www.youtube.com/watch?v=Xw_AF_gA7vU&list=PLAZngf0lrwwxj1QmLfTkp9TiHeJYa2HWV&index=51&pp=iAQB8AUB" target="_blank">Cabaret 3st(上手ステージ横)</a></li>
+     <li><a href="https://www.youtube.com/watch?v=7dVeQLeACr8&list=PLAZngf0lrwwxj1QmLfTkp9TiHeJYa2HWV&index=52&pp=iAQB8AUB" target="_blank">Cabaret 4st(下手花道裏)</a></li>
+    </ul>
+
+    <h3>16th</h3>
+    <ul>
+     <li><a href="https://www.youtube.com/watch?v=w8C__oL5dWU&list=PLAZngf0lrwwymKhfujDJv2bmaxggGfAIF&index=32&pp=iAQB8AUB" target="_blank">Party Festa! 1st(ストリート)</a></li>
+     <li><a href="https://www.youtube.com/watch?v=9fHn5yDJrQ0&list=PLAZngf0lrwwymKhfujDJv2bmaxggGfAIF&index=33&pp=iAQB8AUB" target="_blank">Party Festa! 2st ~1~(階段広場)</a></li>
+     <li><a href="https://www.youtube.com/watch?v=Qe1eR985txk&list=PLAZngf0lrwwymKhfujDJv2bmaxggGfAIF&index=34&pp=iAQB8AUB" target="_blank">Party Festa! 2st ~2~(ぐるぐる➡プラザマート)</a></li>
+     <li><a href="https://www.youtube.com/watch?v=U-dyWK9D9pQ&list=PLAZngf0lrwwxj1QmLfTkp9TiHeJYa2HWV&index=67&pp=iAQB8AUBsAgC" target="_blank">Cabaret 3st(上手ステージ横)</a></li>
+     <li><a href="https://www.youtube.com/watch?v=W05l5zwn4PU&list=PLAZngf0lrwwxj1QmLfTkp9TiHeJYa2HWV&index=68&pp=iAQB8AUBsAgC" target="_blank">Cabaret 4st(下手BOX)</a></li>
+    </ul>
+
+   
+
+    <h3>30th</h3>
+    <ul>
+     <li><a href="https://www.youtube.com/watch?v=1n9qY-ceaBI&list=PLAZngf0lrwwxj1QmLfTkp9TiHeJYa2HWV&index=72&pp=iAQB8AUBsAgC" target="_blank">Cabaret 1st(下手花道降り)</a></li>
+     <li><a href="https://www.youtube.com/watch?v=8KuaiGTfDRU&list=PLAZngf0lrwwxj1QmLfTkp9TiHeJYa2HWV&index=73&pp=iAQB8AUBsAgC" target="_blank">Cabaret 2st(上手花道降り)</a></li>
+     <li><a href="https://www.youtube.com/watch?v=tKFoWF0qPvs&list=PLAZngf0lrwwymKhfujDJv2bmaxggGfAIF&index=37&pp=iAQB8AUB" target="_blank">Party Festa! 1st(階段広場)</a></li>
+     <li><a href="https://www.youtube.com/watch?v=xH7xDAlp9F4&list=PLAZngf0lrwwymKhfujDJv2bmaxggGfAIF&index=38&pp=iAQB8AUB" target="_blank">Party Festa! 2st(ドルチェ)</a></li>
+    </ul>
+
+
+  </div>
+
+    <div class="card fade-in"> 
+    <h2>JULY</h2>
+  
+    <h3>17th</h3>
+    <ul>
+     <li><a href="https://www.youtube.com/watch?v=BRVTdLAG32Q&list=PLAZngf0lrwwxj1QmLfTkp9TiHeJYa2HWV&index=88&pp=iAQB8AUBsAgC" target="_blank">Cabaret 1st(下手花道裏)</a></li>
+     <li><a href="https://www.youtube.com/watch?v=J1sIZZS1ZSs&list=PLAZngf0lrwwxj1QmLfTkp9TiHeJYa2HWV&index=89&pp=iAQB8AUBsAgC" target="_blank">Cabaret 2st(上手花道裏)</a></li>
+     <li><a href="https://www.youtube.com/watch?v=T6HaoUmIhGw&list=PLAZngf0lrwwxj1QmLfTkp9TiHeJYa2HWV&index=90&pp=iAQB8AUBsAgC" target="_blank">Cabaret 3st(下手花道裏)</a></li>
+     <li><a href="https://www.youtube.com/watch?v=y1okj7c3fbU&list=PLAZngf0lrwwymKhfujDJv2bmaxggGfAIF&index=47&pp=iAQB8AUB" target="_blank">Party Festa! 1st(上手)</a></li>
+     <li><a href="https://www.youtube.com/watch?v=M2zZMFw9NeI&list=PLAZngf0lrwwymKhfujDJv2bmaxggGfAIF&index=48&pp=iAQB8AUB" target="_blank">Party Festa! 2st(下手)</a></li>
+    </ul>
+
+    <h3>24th</h3>
+    <ul>
+     <li><a href="https://www.youtube.com/watch?v=qdl9Tb0A-ZI&list=PLAZngf0lrwwxj1QmLfTkp9TiHeJYa2HWV&index=93&pp=iAQB8AUBsAgC" target="_blank">Cabaret 1st(上手花道裏)</a></li>
+     <li><a href="https://www.youtube.com/watch?v=i0JNc86Fsh0&list=PLAZngf0lrwwxj1QmLfTkp9TiHeJYa2HWV&index=94&pp=iAQB8AUBsAgC" target="_blank">Cabaret 2st(下手花道裏)</a></li>
+     <li><a href="https://www.youtube.com/watch?v=Z7olEbneyms&list=PLAZngf0lrwwymKhfujDJv2bmaxggGfAIF&index=51&pp=iAQB8AUB" target="_blank">Party Festa! 1st(ー)</a></li>
+     <li><a href="https://www.youtube.com/watch?v=NHurEucizI0&list=PLAZngf0lrwwymKhfujDJv2bmaxggGfAIF&index=52&pp=iAQB8AUB" target="_blank">Party Festa! 2st(ー)</a></li>
+    </ul>
+
+    <h3>31st</h3>
+    <ul>
+     <li><a href="https://www.youtube.com/watch?v=0vPN_67pVT8&list=PLAZngf0lrwwymKhfujDJv2bmaxggGfAIF&index=53&pp=iAQB8AUB" target="_blank">Party Festa! 1st(ー)</a></li>
+     <li><a href="https://www.youtube.com/watch?v=ptf4rkDCBOA&list=PLAZngf0lrwwymKhfujDJv2bmaxggGfAIF&index=54&pp=iAQB8AUB" target="_blank">Party Festa! 2st(ー)</a></li>
+     <li><a href="https://www.youtube.com/watch?v=TVDpowpF7w0&list=PLAZngf0lrwwxj1QmLfTkp9TiHeJYa2HWV&index=99&pp=iAQB8AUB0gcJCdMKAYcqIYzvsAgC" target="_blank">Cabaret 3st(上手花道裏)</a></li>
+     <li><a href="https://www.youtube.com/watch?v=SAvmc5shD7Y&list=PLAZngf0lrwwxj1QmLfTkp9TiHeJYa2HWV&index=100&pp=iAQB8AUBsAgC" target="_blank">Cabaret 4st(ー)</a></li>
+    </ul>
+
+  </div>
+
+  <div class="card fade-in"> 
+    <h2>SEPTEMBER</h2>
+ 
+    <h3>27th</h3>
+    <ul>
+     <li>Halloween Masquerade 1st()</li>
+     <li><a href="https://www.youtube.com/watch?v=COam5Y9tDpY&list=PLAZngf0lrwwwa2APowqAinNJnZJK74Za2&index=1&pp=iAQBsAgC" target="_blank">Costume Party ~2~(東リベ)</a></li>
+     <li>Halloween Masquerade 2st()</li>
+     <li>Cabaret 1st()</li>
+     <li>Cabaret 2st()</li>
+    </ul>
+
+    <h3>29th</h3>
+    <ul>
+     <li><a href="https://www.youtube.com/watch?v=g8AJGLFxcCM&list=PLAZngf0lrwww3VT2h1PMGWiLlpqSoFxFG&index=15&pp=iAQB8AUB" target="_blank">Halloween Masquerade 1st(ー)</a></li>
+     <li><a href="https://www.youtube.com/watch?v=uNxgfhB8aGc&list=PLAZngf0lrwww3VT2h1PMGWiLlpqSoFxFG&index=14&pp=iAQB8AUB" target="_blank">Halloween Masquerade 2st(ー)</a></li>
+     <li>Cabaret 1st()</li>
+    </ul>
+
+  </div>
+
+  <div class="card fade-in"> 
+    <h2>OCTOBER</h2>
+   
+
+    <h3>5th</h3>
+    <ul>
+     <li><a href="https://www.youtube.com/watch?v=geJbuY2Gol0&list=PLAZngf0lrwww3VT2h1PMGWiLlpqSoFxFG&index=13&pp=iAQB8AUB" target="_blank">Halloween Masquerade 1st(ー)</a></li>
+     <li>Halloween Masquerade 2st()</li>
+     <li>Cabaret 1st()</li>
+    </ul>
+
+    <h3>11th</h3>
+    <ul>
+     <li>Halloween Masquerade 1st()</li>
+     <li>Halloween Masquerade 2st()</li>
+     <li>Cabaret 1st()</li>
+     <li>Cabaret 2st()</li>
+    </ul>
+
+    <h3>14th</h3>
+    <ul>
+     <li><a href="https://www.youtube.com/watch?v=MFN7HVLZNR4&list=PLAZngf0lrwww3VT2h1PMGWiLlpqSoFxFG&index=12&pp=iAQB8AUB0gcJCdMKAYcqIYzv" target="_blank">Halloween Masquerade 1st(ー)</a></li>
+     <li><a href="https://www.youtube.com/watch?v=jYQkKIniYs8&list=PLAZngf0lrwww3VT2h1PMGWiLlpqSoFxFG&index=11&pp=iAQB8AUB" target="_blank">Halloween Masquerade 2st(ー)</a></li>
+    </ul>
+
+    <h3>17th</h3>
+    <ul>
+     <li><a href="https://www.youtube.com/watch?v=Z7qG0C-XunU&list=PLAZngf0lrwwxj1QmLfTkp9TiHeJYa2HWV&index=102&pp=iAQB8AUB0gcJCdMKAYcqIYzvsAgC" target="_blank">Cabaret 1st(下手花道裏)</a></li>
+     <li><a href="https://www.youtube.com/watch?v=wQ9hgvsH0rM&list=PLAZngf0lrwwxj1QmLfTkp9TiHeJYa2HWV&index=103&pp=iAQB8AUBsAgC" target="_blank">Cabaret 2st(上手ステージ横)</a></li>
+    </ul>
+
+    <h3>18th</h3>
+    <ul>
+     <li><a href="https://www.youtube.com/watch?v=dIK_1Bnv8fM&list=PLAZngf0lrwww3VT2h1PMGWiLlpqSoFxFG&index=10&pp=iAQB8AUB0gcJCdMKAYcqIYzv" target="_blank">Halloween Masquerade 1st(ー)</a></li>
+     <li><a href="https://www.youtube.com/watch?v=liTOkVOdQ3k&list=PLAZngf0lrwww3VT2h1PMGWiLlpqSoFxFG&index=9&pp=iAQB8AUB" target="_blank">Halloween Masquerade 2st(ー)</a></li>
+     <li><a href="https://www.youtube.com/watch?v=-D0jBQK1atg&list=PLAZngf0lrwwxj1QmLfTkp9TiHeJYa2HWV&index=119&pp=iAQB8AUBsAgC" target="_blank">Cabaret 2st(2人席VIP)</a></li>
+    </ul>
+
+    <h3>20th</h3>
+    <ul>
+     <li><a href="https://www.youtube.com/watch?v=KbgzpwTjVuo&list=PLAZngf0lrwww3VT2h1PMGWiLlpqSoFxFG&index=8&pp=iAQB8AUB" target="_blank">Halloween Masquerade 1st(ー)</a></li>
+     <li><a href="https://www.youtube.com/watch?v=LG8NY8plQig&list=PLAZngf0lrwww3VT2h1PMGWiLlpqSoFxFG&index=7&pp=iAQB8AUB0gcJCdMKAYcqIYzv" target="_blank">Halloween Masquerade 2st(ー)</a></li>
+     <li>Cabaret 2st()</li>
+    </ul>
+
+
+    <h3>27th</h3>
+    <ul>
+     <li>Halloween Masquerade 1st()</li>
+     <li>Halloween Masquerade 2st()</li>
+    </ul>
+
+    <h3>31st</h3>
+    <ul>
+     <li>Halloween Masquerade 1st()</li>
+     <li>Halloween Masquerade 2st()</li>
+     <li>Cabaret 1st()</li>
+     <li><a href="https://www.youtube.com/watch?v=ULXqkXTb6Lw&list=PLAZngf0lrwwxj1QmLfTkp9TiHeJYa2HWV&index=146&pp=iAQB8AUBsAgC" target="_blank">Cabaret 2st(上手花道裏)</a></li>
+     <li><a href="https://www.youtube.com/watch?v=PJn4vKX47SI&list=PLAZngf0lrwwxj1QmLfTkp9TiHeJYa2HWV&index=147&pp=iAQB8AUBsAgC" target="_blank">Cabaret 3st(下手花道裏)</a></li>
+    </ul>
+  </div>
+
+  <div class="card fade-in"> 
+    <h2>NOVEMBER</h2>
+   
+    <h3>3rd</h3>
+    <ul>
+     <li><a href="https://www.youtube.com/watch?v=l79yfjI1fTY&list=PLAZngf0lrwww3VT2h1PMGWiLlpqSoFxFG&index=4&pp=iAQB8AUB" target="_blank">Halloween Masquerade 1st(ペローニ階段)</a></li>
+     <li><a href="https://www.youtube.com/watch?v=vcAGOz5rQto&list=PLAZngf0lrwww3VT2h1PMGWiLlpqSoFxFG&index=3&pp=iAQB8AUB" target="_blank">Halloween Masquerade 2st(階段広場)</a></li>
+     <li><a href="https://www.youtube.com/watch?v=rw3FpLL-_ak&list=PLAZngf0lrwwxj1QmLfTkp9TiHeJYa2HWV&index=148&pp=iAQB8AUBsAgC" target="_blank">Cabaret 2st(上手花道裏)</a></li>
+    </ul>
+
+   
+    <h3>27th</h3>
+    <ul>
+     <li>Halloween Masquerade 1st()</li>
+     <li>Halloween Masquerade 2st()</li>
+     <li>Cabaret 1st()</li>
+     <li>Cabaret 2st()</li>
+    </ul>
+
+  </div>
+
+  <div class="card fade-in"> 
+    <h2>DECEMBER</h2>
+    <h3>7th</h3>
+    <ul>
+     <li>Party Festa! 1st()</li>
+     <li>Party Festa! 2st()</li>
+     <li>Cabaret 3st()</li>
+     <li>Cabaret 4st()</li>
+    </ul>
+
+    <h3>8th</h3>
+    <ul>
+     <li>Party Festa! 1st()</li>
+     <li>Party Festa! 2st()</li>
+     <li>Cabaret 3st()</li>
+     <li>Cabaret 4st()</li>
+    </ul>
+  </div>
+
+  <div class="card fade-in"> 
+    <h2>JANUARY</h2>
+    <h3>9th</h3>
+    <ul>
+     <li><a href="https://www.youtube.com/watch?v=E2IRihopz70&list=PLAZngf0lrwwxj1QmLfTkp9TiHeJYa2HWV&index=104&pp=iAQB8AUBsAgC" target="_blank">Cabaret 1st(下手ステージ横)</a></li>
+     <li><a href="https://www.youtube.com/watch?v=I21Vyvz2iHE&list=PLAZngf0lrwwxj1QmLfTkp9TiHeJYa2HWV&index=105&pp=iAQB8AUBsAgC" target="_blank">Cabaret 2st(上手4人席)</a></li>
+     <li><a href="https://www.youtube.com/watch?v=5Yd7JPa68tY&list=PLAZngf0lrwwxj1QmLfTkp9TiHeJYa2HWV&index=106&pp=iAQB8AUBsAgC" target="_blank">Cabaret 3st(下手花道裏)</a></li>
+     <li><a href="https://www.youtube.com/watch?v=epU4kQl5DMY&list=PLAZngf0lrwwymKhfujDJv2bmaxggGfAIF&index=55&pp=iAQB8AUB" target="_blank">Party Festa! 1st(ー)</a></li>
+     <li><a href="https://www.youtube.com/watch?v=glAxs8p7He4&list=PLAZngf0lrwwymKhfujDJv2bmaxggGfAIF&index=56&pp=iAQB8AUB" target="_blank">Party Festa! 2st(ー)</a></li>
+    </ul>
+
+    <h3>11th</h3>
+    <ul>
+     <li>Party Festa! 1st()</li>
+     <li>Party Festa! 2st()</li>
+     <li>Cabaret 3st()</li>
+     <li>Cabaret 4st()</li>
+    </ul>
+
+  
+
+    <h3>17th</h3>
+    <ul>
+     <li>Cabaret 1st()</li>
+     <li>Cabaret 2st()</li>
+     <li>Cabaret 3st()</li>
+     <li>Party Festa! 1st()</li>
+     <li>Party Festa! 2st()</li>
+    </ul>
+
+    <h3>18th</h3>
+    <ul>
+     <li>Party Festa! 1st()</li>
+     <li>Party Festa! 2st()</li>
+     <li>Cabaret 3st()</li>
+     <li>Cabaret 4st()</li>
+    </ul>
+
+    <h3>25th</h3>
+    <ul>
+     <li>Party Festa! 1st()</li>
+     <li>Party Festa! 2st()</li>
+     <li>Cabaret 3st()</li>
+     <li>Cabaret 4st()</li>
+    </ul>
+
+    <h3>29th</h3>
+    <ul>
+     <li>Cabaret 1st()</li>
+     <li>Cabaret 2st()</li>
+     <li>Cabaret 3st()</li>
+     <li>Party Festa! 1st()</li>
+     <li>Party Festa! 2st()</li>
+    </ul>
+
+
+  </div>
+
+  <div class="card fade-in"> 
+    <h2>FEBURUARY</h2>
+    <h3>17th</h3>
+    <ul>
+     <li><a href="https://www.youtube.com/watch?v=35pCic_cGMk&list=PLAZngf0lrwwxj1QmLfTkp9TiHeJYa2HWV&index=135&pp=iAQB8AUBsAgC" target="_blank">Cabaret 1st(下手ステージ横)</a></li>
+     <li><a href="https://www.youtube.com/watch?v=6qoZT06Cmx0&list=PLAZngf0lrwwxj1QmLfTkp9TiHeJYa2HWV&index=136&pp=iAQB8AUBsAgC" target="_blank">Cabaret 2st(上手花道裏)</a></li>
+     <li><a href="https://www.youtube.com/watch?v=cGuQRCVa924&list=PLAZngf0lrwwymKhfujDJv2bmaxggGfAIF&index=69&pp=iAQB8AUB" target="_blank">Party Festa! 1st(ー)</a></li>
+     <li>Party Festa! 2st()</li>
+    </ul>
+
+   
+    <h3>22nd</h3>
+    <ul>
+     <li><a href="https://www.youtube.com/watch?v=k7l_7_jMNNc&list=PLAZngf0lrwwxj1QmLfTkp9TiHeJYa2HWV&index=137&pp=iAQB8AUBsAgC" target="_blank">Cabaret 1st(ー)</a></li>
+     <li><a href="https://www.youtube.com/watch?v=W7lp38J_5zI&list=PLAZngf0lrwwxj1QmLfTkp9TiHeJYa2HWV&index=138&pp=iAQB8AUBsAgC" target="_blank">Cabaret 2st(ー)</a></li>
+     <li>Party Festa! 1st()</li>
+     <li>Party Festa! 2st()</li>
+    </ul>
+
+    <h3>23rd</h3>
+    <ul>
+     <li><a href="https://www.youtube.com/watch?v=Y5sIS-pcPWA&list=PLAZngf0lrwwxj1QmLfTkp9TiHeJYa2HWV&index=126&pp=iAQB8AUBsAgC" target="_blank">Cabaret 1st(2人席VIP)</a></li>
+     <li><a href="https://www.youtube.com/watch?v=Uy4i3gmc3uw&list=PLAZngf0lrwwxj1QmLfTkp9TiHeJYa2HWV&index=127&pp=iAQB8AUBsAgC" target="_blank">Cabaret 2st(ー)</a></li>
+     <li><a href="https://www.youtube.com/watch?v=J-u_A6XCoq8&list=PLAZngf0lrwwymKhfujDJv2bmaxggGfAIF&index=61&pp=iAQB8AUB" target="_blank">Party Festa! 1st(ー)</a></li>
+     <li><a href="https://www.youtube.com/watch?v=IdiUCh4ofjs&list=PLAZngf0lrwwymKhfujDJv2bmaxggGfAIF&index=62&pp=iAQB8AUB" target="_blank">Party Festa! 2st(ー)</a></li>
+    </ul>
+
+  </div>
+
+  </body>
+</html>
